@@ -19,7 +19,7 @@ The interactive Power BI dashboard allows users to filter and explore market dat
 *   **Condition Breakdown:** Market share of product conditions (e.g., Bon État, Jamais Utilisé, Moyen).
 *   **Performance Matrix:** Detailed table cross-filtering Wilaya with total counts and average prices.
 
-![Dashboard Preview](dashoard.png)
+![Dashboard Preview](dashoard.PNG)
 
 ## 🗄️ Data Model
 

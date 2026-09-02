@@ -25,7 +25,7 @@ The interactive Power BI dashboard allows users to filter and explore market dat
 
 The project utilizes a highly optimized **Star Schema** to manage relationships between hardware specifications, geographical data, and transactional facts. 
 
-![Data Model ERD](image_5ef0ba.png)
+![Data Model ERD](model.PNG)
 
 ### Fact Table
 *   **`data_preprocessed`**: The central fact table containing the core transactional/listing data.
@@ -34,13 +34,13 @@ The project utilizes a highly optimized **Star Schema** to manage relationships 
 ### Dimension Tables
 The fact table is connected to four primary dimension tables via one-to-many relationships:
 
-1.  **`CPU`** ([View Fields](image_5ef025.png))
+1.  **`CPU`** 
     *   Fields: `cpu_brand`, `cpu_cores`, `cpu_family`, `cpu_generation`, `cpu_performance_class`, `cpu_suffix`, `Index`
-2.  **`GPU`** ([View Fields](image_5ef05b.png))
+2.  **`GPU`** 
     *   Fields: `gpu_brand`, `gpu_performance_class`, `gpu_suffix`, `gpu_tier`, `Index`, `Merged`
-3.  **`RAM`** ([View Fields](image_5ef05b.png))
+3.  **`RAM`** 
     *   Fields: `RAM_SIZE_GB`, `ram_type_class`, `Index`
-4.  **`Location`** ([View Fields](image_5ef05b.png))
+4.  **`Location`** 
     *   Fields: `city`, `Region`, `Wilaya`, `Index`
 
 ## 🛠️ Technologies Used

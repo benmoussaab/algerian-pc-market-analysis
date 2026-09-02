@@ -57,7 +57,3 @@ The fact table is connected to four primary dimension tables via one-to-many rel
 3.  Open the `.pbix` file included in the repository.
 4.  Use the slicers at the top of the dashboard (Wilaya, Condition, Gaming series, Price Range) to interact with the data and explore specific market segments.
 
-## 📁 Repository Structure
-*   `/data`: Raw and preprocessed datasets (if applicable/public).
-*   `/dashboards`: The Power BI (`.pbix`) files.
-*   `/images`: Screenshots of the dashboard and data model (`image_5eefe1.png`, `image_5ef025.png`, `image_5ef05b.png`, `image_5ef0ba.png`).
